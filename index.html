@@ -8,13 +8,37 @@
 </head>
 
 <body>
+	<div id="main">
+	<div id="form-askguus">
+		<h1>.: Q? Ju askgu.us! :.</h1>
+		<form name="contact_ask" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+			<p>
+			  <label>Your Name: <input type="text" name="name" /></label>   
+			</p>
+			<p>
+			  <label>Your Email: <input type="email" name="email" /></label>
+			</p>
+			<p>
+			  <label>Question: <textarea name="question"></textarea></label>
+			</p>
+			<p>
+				<div data-netlify-recaptcha="true"></div>
+			  <button type="submit">Send</button>
+			</p>
+		  </form>
+	</div>
 	<div id="container" class="container">
 		<div id="chat" class="chat">
 			<div id="messages" class="messages"></div>
 			<input id="input" type="text" placeholder="Say something..." autocomplete="off" autofocus="true" />
 		</div>
-		<img src="bot.png" alt="Robot cartoon" height="500vh">
+			<div class="container-guus">
+				<h1>:. Guus' FAQ Bot .:</h1>
+				<img src="bot.png" alt="Robot cartoon" height="500vh">
+			</div>
 	</div>
+</div>
+</div>
 </body>
 <script type="text/javascript" src="index.js" ></script>
 <script type="text/javascript" src="constants.js" ></script>

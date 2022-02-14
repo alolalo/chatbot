@@ -90,6 +90,12 @@ input {
 	padding-block: 1ex;
 }
 
+.container-guus {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 button {
 	background-color: black;
 	color: white;
