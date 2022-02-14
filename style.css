@@ -96,8 +96,9 @@ background-size: contain;
 #form-askguus {
     display: inline-block;
 	margin-inline: 2ex;
+    margin-block-start: 10em;
 	padding-block: 1ex;
-    text-align: end;
+    text-align: center;
 }
 
 .container-guus {
@@ -114,6 +115,8 @@ button {
 	padding-inline: 4ex;
 	padding-block: 0.5ex;
 	border-radius: 1vh;
+    margin-left: 30vw;
+    margin-top: 1vh;
 }
 button:hover {
 	background-color: lightseagreen;
@@ -122,3 +125,6 @@ button:hover {
     border-radius: 50vh;
 }
 
+.container {
+    display: none;
+}

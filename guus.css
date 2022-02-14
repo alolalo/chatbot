@@ -6,8 +6,9 @@
 :where(.pixelart) {
     position: absolute;
     top: 50%;
-    margin-top: -10vh;
-    left: 30vw;
+    margin-top: -45vh;
+    left: 40%;
+    margin-left: -10vw;
     animation: blink 12s infinite;
     -webkit-animation: blink 12s infinite;
     -moz-animation: blink 12s infinite;
