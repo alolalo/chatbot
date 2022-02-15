@@ -1,16 +1,16 @@
 {
-    "name": "Questions? Just askgu.us",
+    "name": "Just askgu.us",
     "short_name": "askgu.us ",
     "start_url": "index.html",
     "scope": "./",
     "icons": [
       {
-        "src": "contract.png",
-        "sizes": "192x192",
+        "src": "image/bot.png",
+        "sizes": "256x128",
         "type": "image/png"
       },
       {
-        "src": "contract.png",
+        "src": "image/bot-mini.png",
         "sizes": "512x512",
         "type": "image/png"
       }
