@@ -1,45 +1,51 @@
 <!DOCTYPE html> 
 <html> 
     <head> 
-        <title>.: askgu.us :.</title>         
-        <link rel="icon" href="bot.png"/> 
+        <title>.: askgu.us :.</title>
+		<meta charset="UTF-8" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="authorization_endpoint" href="https://indieauth.com/auth">         
+        <link rel="icon" href="image/bot.png"/>
         <link rel="stylesheet" href="/style.css"/> 
         <link rel="stylesheet" href="/guus.css"/> 
         <link rel="stylesheet" href="/test.css"/> 
     </head>     
     <body> 
-        <div id="main" style="height: 100%;"> 
+		<div id="main" style="height: 100%;"> 
             <div id="form-askguus"> 
-                <div class="pixelart" data-q="hello"></div>                 
+				<div class="pixelart" data-q="hello"></div>                 
                 <h1>.: Q? Just askgu.us! :.</h1>
                 <form name="contact_ask" method="POST" data-netlify="true" data-netlify-recaptcha="true"> 
-                    <p> <label>Your Name: 
-                            <input type="text" name="name"/>
-                        </label> </p> 
+					<p> <label>Your Name: 
+						<input type="text" name="name"/>
+					</label> </p> 
                     <p> <label>Your Email: 
-                            <input type="email" name="email"/>
-                        </label> </p> 
+						<input type="email" name="email"/>
+					</label> </p> 
                     <p> <label>Question: 
-                            <textarea name="question"></textarea>
-                        </label> </p> 
+						<textarea name="question"></textarea>
+					</label> </p> 
                     <div data-netlify-recaptcha="true" style="margin: 12px;"></div>                     
                     <p><button type="submit">Send</button></p> 
-                </form>                                  
-            
-			</div>            
-			<footer><h2>.: Dedicated to ❤️ Karla :.</h2></footer> 
-            <div id="container" class="container"> 
-                <div id="chat" class="chat"> 
-                    <div id="messages" class="messages"></div>                     
-                    <input id="input" type="text" placeholder="Say something..." autocomplete="off" autofocus="true"/> 
-                </div>                 
-                <div class="container-guus"> 
-                    <h1>:. Guus' FAQ Bot (WIP) .:</h1> 
+                </form>                 
+                <footer>
+					<h2>.: Released 14-02-2022, Dedicated to ❤️ Karla :.</h2>
+					<a href="https://twitter.com/bliepjes" rel="me">twitter.com/bliepjes</a>
+					<a href="https://github.com/alolalo" rel="me">github.com/alolalo</a>
+                </footer>                 
+                <div id="container" class="container"> 
+                    <div id="chat" class="chat"> 
+                        <div id="messages" class="messages"></div>                         
+                        <input id="input" type="text" placeholder="Say something..." autocomplete="off" autofocus="true"/> 
+                    </div>                     
+                    <div class="container-guus"> 
+                        <h1>:. Guus' FAQ Bot (WIP) .:</h1> 
+                    </div>                     
                 </div>                 
             </div>             
         </div>         
-    </div>     
-</body> 
-<!-- <script type="text/javascript" src="index.js"></script>
+    </body>     
+    <!-- <script type="text/javascript" src="index.js"></script>
 <script type="text/javascript" src="constants.js"></script>
 <script type="text/javascript" src="speech.js"></script> -->
