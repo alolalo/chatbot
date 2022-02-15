@@ -2,6 +2,7 @@
     "name": "Questions? Just askguus",
     "short_name": "askgu.us",
     "start_url": "index.html",
+    "scope": "./",
     "icons": [
         {
             "src": "image/android-chrome-192x192.png",
