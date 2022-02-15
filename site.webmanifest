@@ -1,6 +1,7 @@
 {
-    "name": "Questions? Just askgu.us",
+    "name": "Questions? Just askguus",
     "short_name": "askgu.us",
+    "start_url": "index.html",
     "icons": [
         {
             "src": "image/android-chrome-192x192.png",
