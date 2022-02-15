@@ -135,3 +135,6 @@ h1 {
     display: block;
     width: fit-content;
 }
+body {
+    font-size: 21px;
+}
