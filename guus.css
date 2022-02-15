@@ -1,7 +1,3 @@
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
-          
 :root {
   --_cp: black;
   --cp: var(--_cp, black);
