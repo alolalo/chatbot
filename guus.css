@@ -4,7 +4,6 @@
     --_cs: white;
     --cs: var(--_cs, white);
     --size: 9px;
-    font-size: 8px;
 }
 
 
@@ -141,9 +140,7 @@ h1 {
   display: block;
   width: fit-content;
 }
-body {
-  font-size: 21px;
-}
+
 
 :where(.pixelart) {
     font-size: 16px;
