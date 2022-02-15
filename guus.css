@@ -119,6 +119,7 @@ h1 {
 
 :where(.pixelart) {
   position: absolute;
+  display: block;
   inset-block-start: 50%;
   margin-block-start: -45vh;
   inset-inline-start: 40%;

@@ -4,15 +4,10 @@
     "start_url": "./index.html",
     "icons": [
       {
-        "src": "image/bot.png",
-        "sizes": "256x128",
+        "src": "image/justguus.png",
+        "sizes": "256x256",
         "type": "image/png"
       },
-      {
-        "src": "image/bot-mini.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      }
     ],
     "theme_color": "#22cafe",
     "background_color": "#face22",
