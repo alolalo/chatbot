@@ -8,7 +8,7 @@
         "sizes": "256x256",
         "type": "image/png"
       }],
-    "theme_color": "#22cafe",
+    "theme_color": "#face22",
     "background_color": "#face22",
     "display": "standalone"
   }
