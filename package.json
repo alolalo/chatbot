@@ -1,0 +1,26 @@
+{
+  "name": "askguus",
+  "version": "0.0.1",
+  "description": "just askgu.us",
+  "main": "app.js",
+  "scripts": {
+    "autoprefixer": "postcss ./*.css --use autoprefixer -d build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alolalo/chatbot.git"
+  },
+  "keywords": [
+    "askguus"
+  ],
+  "author": "justgu.us",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alolalo/chatbot/issues"
+  },
+  "homepage": "https://github.com/alolalo/chatbot#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss-cli": "^9.1.0"
+  }
+}
