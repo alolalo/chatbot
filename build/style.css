@@ -1,28 +1,3 @@
 @import url("/guus.css");
 
-.form-grid {
-    grid-template-columns: [sm--main-start] minmax(5vw, 1fr) [lg--main-start] minmax(50vw, auto) [lg--main-end] minmax(5vw, 1fr) [sm--main-end];
-    grid-template-rows: minmax(100px, auto) minmax(150px, auto) auto minmax(200px, 3fr) [form-end] minmax(100px, 1fr);
-    grid-template-areas: '. . .' '. face .' '. form .' '. form .' '. footer .';
-    display: grid;
-}
-
-.form-field-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: minmax(100px, 1fr) minmax(100px, 1fr) fit-content(50%) minmax(100px, 1fr) minmax(100px, 1fr);
-    grid-template-areas: 'name' 'email' 'question' 'agreement' 'button';
-    grid-gap: 16px;
-}
-
-.form-fields {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto auto minmax(100px, 1fr);
-    grid-template-areas: 'title' 'name' 'email' 'question' 'accept' 'button';
-    grid-gap: 4px;
-    white-space: pre-wrap;
-    font-size: 21px;
-    max-width: 400px;
-    min-width: 320px;
-}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3N0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSx3QkFBd0IiLCJmaWxlIjoic3R5bGUuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCB1cmwoXCIvZ3V1cy5jc3NcIik7XG4iXX0= */
