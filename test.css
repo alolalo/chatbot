@@ -19,6 +19,7 @@
     --_q: var(--_brand, black);
     border-color: var(--_q);
     --q: var(var(--_q));
+    accent-color: var(--q);
     --q-key-1: var(--\_brand);
     --q-key-2: var(--\/_brand);
     --q-key-3: var(--\/\/_brand);
@@ -29,6 +30,7 @@
     --_q: var(--_test, red);
     border-color: var(--_q);
     --q: var(--_q);
+    accent-color: var(--q);
     --q-key-1: var(--\_test);
     --q-key-2: var(--\/_test);
     --q-key-3: var(--\/\/_test);
