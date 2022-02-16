@@ -1,0 +1,13 @@
+[[plugins]]
+  package = "netlify-plugin-webmentions"
+
+	[plugins.inputs]
+
+	# The base url of your site (optional, default: main URL set in Netlify)
+	baseUrl = "https://askgu.us"
+
+	# Path to the feed URL (optional, default: /feed.xml)
+	feedPath = "/feed.xml"
+
+	# Maximum number of feed entries to check for mentions (optional, default: 1)
+	limit = 1
