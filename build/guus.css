@@ -95,8 +95,7 @@ button {
   font-size: 1.6rem;
   padding-inline: 4ex;
   padding-block: 0.5ex;
-  border-radius: 1vh;
-  margin-block-start: 2vh; }
+  border-radius: 1vh; }
 
 button:hover {
   background-color: lightseagreen;
