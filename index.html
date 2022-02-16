@@ -15,40 +15,45 @@
         <link rel="mask-icon" href="image/safari-pinned-tab.svg" color="#face22"/>
         <meta name="msapplication-TileColor" content="#da532c"/>
         <meta name="theme-color" content="#face22"/>
-        <link rel="stylesheet" href="build/style.css"/> 
         <script type="text/javascript" src="pwa-workers.js"></script>
         <link rel="webmention" href="https://webmention.io/www.askgu.us/webmention"/>
         <link rel="pingback" href="https://webmention.io/www.askgu.us/xmlrpc"/> 
+        <link rel="stylesheet" href="build/style.css"/> 
+        <link href="build/style.css" rel="stylesheet" type="text/css"/>
+        <link href="build/guus.css" rel="stylesheet" type="text/css"/>
+        <link href="build/guus.css" rel="stylesheet" type="text/css"/>
     </head>     
     <body> 
-        <div id="main" style="height: 100vh;"> 
-            <div id="form-askguus" style="max-width: 600px; grid-auto-flow: row; align-content: stretch; justify-content: center; align-self: center; display: grid;"> 
-                <div class="pixelart" data-q="hello"></div>                 
-                <h1>.: Q? askgu.us! :.</h1>
-                <form name="contact_ask" method="POST" data-netlify="true" data-netlify-recaptcha="true"> 
-                    <p> <label>Your Name: 
-                            <input type="text" name="name"/>
-                        </label> </p> 
-                    <p> <label>Your Email: 
-                            <input type="email" name="email"/>
-                        </label> </p> 
-                    <p> <label>Question: 
-                            <textarea name="question"></textarea>
-                        </label> </p> 
-                    <div data-netlify-recaptcha="true" style="margin: 12px;"></div>                     
-                    <p><button type="submit">Send</button></p> 
-                </form>                 
-                <footer>
-                    <h3>.: Dedicated to ❤️ Karla :.</h3><a href="https://twitter.com/bliepjes" rel="me">twitter.com/bliepjes</a><a href="https://github.com/alolalo" rel="me">github.com/alolalo</a>
-                </footer>                 
-                <div id="container" class="container" aria-disabled="true"> 
-                    <div id="chat" class="chat"> 
-                        <div id="messages" class="messages"></div>                         
-                        <input id="input" type="text" placeholder="Say something..." autocomplete="off" autofocus="true"/> 
-                    </div>                     
-                    <div class="container-guus"> 
-                        <h1>:. Guus' FAQ Bot (WIP) .:</h1> 
-                    </div>                     
+        <div id="main" class="form-grid" style="align-items: center; justify-content: center; text-align: center;"> 
+            <p class="pixelart"></p>
+            <form name="contact_ask" method="POST" data-netlify="true" data-netlify-recaptcha="true" class="form-fields" style="grid-area:form;"> 
+                <h1 style="grid-erea:title;">     .: Q? askgu.us! :.</h1>
+                <p style="grid-template-areas: name;"> <label>Your Name: 
+                        <input type="text" name="name" style="min-width: 70%;"/>
+                    </label> </p> 
+                <p style="grid-template-areas: email;"> <label>Your Email: 
+                        <input type="email" name="email" style="min-width: 70%;"/>
+                    </label> </p> 
+                <p style="grid-template-areas: question;"> <label>Question: 
+                        <textarea name="question" style="min-width: 80%; min-height: 200px;"></textarea>
+                    </label></p> 
+                <div data-netlify-recaptcha="true" style="margin: 12px; grid-template-areas: accept;"></div>                 
+                <p style="grid-template-areas: button; margin-right: auto; text-align: center;"><button type="sign-it">Ask...</button></p>
+            </form>
+            <footer style="grid-area:footer;">
+                <h3>.: Dedicated to ❤️ Karla :.</h3>
+                <a href="https://twitter.com/bliepjes" rel="me">twitter.com/bliepjes</a><br/><br/>
+                <a href="https://github.com/alolalo" rel="me">github.com/alolalo</a>
+            </footer>
+        </div>
+        <div id="form-askguus" class="form-container"> 
+            <div id="container" class="container" aria-disabled="true"> 
+                <div id="chat" class="chat"> 
+                    <div id="messages" class="messages"></div>                     
+                    <input id="input" type="text" placeholder="Say something..." autocomplete="off" autofocus="true"/> 
+                </div>                 
+                <div class="container-guus"> 
+                    <h1>:. Guus' FAQ Bot (WIP) .:</h1> 
                 </div>                 
             </div>             
         </div>         

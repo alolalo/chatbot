@@ -86,12 +86,13 @@ input {
 #main {
     display: grid;
     height: 100vh;
-    flex-direction: column;
-    align-items: center;
     background-color: #face22;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23FFEE33' cx='50' cy='0' r='50'/%3E%3Cg fill='%23ffdc28' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23ffcb23' cx='50' cy='100' r='50'/%3E%3Cg fill='%23ffb923' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23ffa727' cx='50' cy='200' r='50'/%3E%3Cg fill='%23ff962c' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23ff8433' cx='50' cy='300' r='50'/%3E%3Cg fill='%23fd7339' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23f5623f' cx='50' cy='400' r='50'/%3E%3Cg fill='%23ec5145' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23e2414b' cx='50' cy='500' r='50'/%3E%3Cg fill='%23d63050' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c82054' cx='50' cy='600' r='50'/%3E%3Cg fill='%23b90d57' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a9005a' cx='50' cy='700' r='50'/%3E%3Cg fill='%2398005c' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%2386005d' cx='50' cy='800' r='50'/%3E%3Cg fill='%2372005d' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%235e005b' cx='50' cy='900' r='50'/%3E%3Cg fill='%234a0059' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23330055' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
     background-attachment: fixed;
     background-size: contain;
+    text-align: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 #form-askguus {
@@ -100,17 +101,17 @@ input {
     padding-block: 1ex;
     text-align: center;
     resize: both;
+    grid-template-areas: form;
 }
 
 button {
     background-color: black;
     color: white;
-    font-size: large;
+    font-size: 1.6rem;
     padding-inline: 4ex;
     padding-block: 0.5ex;
     border-radius: 1vh;
-    margin-inline-start: 30vw;
-    margin-block-start: 1vh;
+    margin-block-start: 2vh;
 }
 
 button:hover {
@@ -125,27 +126,25 @@ button:hover {
 }
 
 h1 {
-    display: block;
-    width: fit-content;
+    display: grid;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 :where(.pixelart) {
-    position: absolute;
-    inset-block-start: 50%;
-    margin-block-start: -45vh;
-    inset-inline-start: 40%;
-    margin-inline-start: -10vw;
     animation: blink 12s infinite;
     -webkit-animation: blink 12s infinite;
     -moz-animation: blink 12s infinite;
     -o-animation: blink 12s infinite;
     width: 200px;
     height: 400px;
-    content: "";
     isolation: isolate;
     z-index: 10;
-    text-align: center;
     grid-area: face;
+    display: grid;
+    position: absolute;
+    margin-left: auto;
 }
 
 @keyframes blink {
