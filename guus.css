@@ -129,7 +129,7 @@ h1 {
     width: fit-content;
 }
 
-:where(.pixelart) {
+.pixelart {
     position: absolute;
     inset-block-start: 50%;
     margin-block-start: -45vh;

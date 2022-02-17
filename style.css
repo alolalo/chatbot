@@ -1,1 +1,29 @@
-@import url("/guus.css");
+@import url("build/guus.css");
+
+.grid-main {
+    grid-template-columns: minmax(25vw, auto) minmax(320px, 500px) minmax(25vw, auto);
+    grid-template-rows: 20px minmax(200px, auto) 2vh fit-content(40%) auto;
+    grid-template-areas: 'nav nav nav' '. face .' '. . .' '. form .' '. footer .';
+}
+
+.grid-form {
+    grid-template-columns: 1fr;
+    grid-template-rows: fit-content(90%) 100px 100px minmax(100px, auto) minmax(100px, auto) 100px;
+    white-space: pre-wrap;
+    grid-template-areas: 'title' 'name' 'email' 'question' 'accept' 'button';
+    font-size: 21px;
+    display: grid;
+    grid-gap: 8px;
+}
+
+@media screen and (min-width:320px) and (max-width:1279px) {
+    .pixelart {
+        margin-inline-start: min(1.5rem, 10ch, 7rem);
+    }
+}
+
+@media screen and (min-width:1280px) and (max-width:1600px) {
+    .pixelart {
+        margin-inline-start: min(7rem, 10vh, 9rem);
+    }
+}
