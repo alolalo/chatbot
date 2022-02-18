@@ -60,8 +60,22 @@
     },
     {
       "src": "image/safari-pinned-tab.svg",
-      "type": "image/svg"
+      "type": "image/svg+xml",
+      "sizes": "any"
     }
   ],
-  "shortcuts": []
+  "shortcuts": [
+    {
+      "name": "Home",
+      "short_name": "Home",
+      "description": "Back to the main app",
+      "url": "/index.html",
+      "icons": [
+        {
+          "src": "image/apple-touch-icon.png",
+          "sizes": "180x180"
+        }
+      ]
+    }
+  ]
 }
