@@ -29,14 +29,19 @@
       "sizes": "32x32"
     },
     {
-      "src": "image/justguus2x.png",
+      "src": "image/justguus.png",
       "type": "image/png",
       "sizes": "256x256"
     },
     {
-      "src": "image/justguus3x.png",
+      "src": "image/justguus2x.png",
       "type": "image/png",
       "sizes": "515x512"
+    },
+    {
+      "src": "image/justguus3x.png",
+      "type": "image/png",
+      "sizes": "1024x1024"
     },
     {
       "src": "image/favicon-16x16.png",
