@@ -42,12 +42,13 @@
       "src": "image/justguus-transparent-512.png",
       "type": "image/png",
       "sizes": "515x512",
-      "purpose": "maskable"
+      "purpose": "any"
     },
     {
       "src": "image/askguus-transparent.png",
       "type": "image/png",
-      "sizes": "515x512"
+      "sizes": "515x512",
+      "purpose": "maskable"
     },
     {
       "src": "image/justguus3x.png",
