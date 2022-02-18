@@ -51,6 +51,12 @@
       "purpose": "maskable"
     },
     {
+      "src": "image/askguus-transparent2x.png",
+      "type": "image/png",
+      "sizes": "1024x1024",
+      "purpose": "maskable"
+    },
+    {
       "src": "image/justguus3x.png",
       "type": "image/png",
       "sizes": "1024x1024"
