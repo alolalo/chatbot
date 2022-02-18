@@ -44,6 +44,11 @@
       "sizes": "515x512"
     },
     {
+      "src": "image/askguus-transparent.png",
+      "type": "image/png",
+      "sizes": "515x512"
+    },
+    {
       "src": "image/justguus3x.png",
       "type": "image/png",
       "sizes": "1024x1024"
