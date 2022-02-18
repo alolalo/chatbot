@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head>
+        <script type="module">
+            import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+            const el = document.createElement('pwa-update');
+            document.body.appendChild(el);
+         </script>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <title>.: askgu.us :.</title>
+        <link rel="authorization_endpoint" href="https://indieauth.com/auth"/>
+        <link rel="token_endpoint" href="https://tokens.indieauth.com/token"/>
+        <link rel="microsub" href="https://aperture.p3k.io/microsub/730"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png"/>
+        <link rel="manifest" href="manifest.json"/>
+        <link rel="mask-icon" href="image/safari-pinned-tab.svg" color="#face22"/>
+        <meta name="msapplication-TileColor" content="#da532c"/>
+        <meta name="theme-color" content="#face22"/>
+        <script type="text/javascript" src="pwa-workers.js"></script>
+        <link rel="webmention" href="https://webmention.io/www.askgu.us/webmention"/>
+        <link rel="pingback" href="https://webmention.io/www.askgu.us/xmlrpc"/> 
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="build/guus.css" rel="stylesheet" type="text/css"/>
+    </head>     
+    <body> 
+        <div id="main" class="grid-main"> 
+            <p class="pixelart"></p>
+            <form name="contact_ask" method="POST" data-netlify="true" data-netlify-recaptcha="true" style="grid-area: form;">
+                <div class="grid-form">
+                    <h1 style="grid-erea:title;"> .: Q? askgu.us! :. </h1>
+                    <p style="grid-area: name;"> <label>Your Name: 
+                            <input type="text" name="name" style="min-width: 70%;"/>
+                        </label> </p>
+                    <p style="grid-area: email;"> <label>Your Email: 
+                            <input type="email" name="email" style="min-width: 70%;"/>
+                        </label> </p>
+                    <p style="grid-area: question;"> <label>Question: 
+                            <textarea name="question" style="min-width: 80%; min-height: 150px;"></textarea>
+                        </label></p>
+                    <div data-netlify-recaptcha="true" style="margin: 12px; grid-template-areas: accept;"></div>
+                    <p style="grid-area: button;"><button type="sign-it">Ask...</button></p>
+                </div>                 
+            </form>
+            <footer style="grid-area:footer;">
+                <h3>.: Dedicated to ❤️ Karla :.</h3><a href="https://twitter.com/bliepjes" rel="me">twitter.com/bliepjes</a>
+                <br/><a href="https://github.com/alolalo" rel="me">github.com/alolalo</a>
+            </footer>
+        </div>         
+    </body>
+</html>
+<!-- <script type="text/javascript" src="index.js"></script>
+<script type="text/javascript" src="constants.js"></script>
+<script type="text/javascript" src="speech.js"></script> -->
