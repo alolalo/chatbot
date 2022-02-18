@@ -9,7 +9,7 @@
   "short_name": ".: askgu.us :.",
   "start_url": "/index.html",
   "theme_color": "#face22",
-  "categories": [],
+  "categories": ["business", "education", "personalization" ],
   "screenshots": [
     {
       "src": "/image/screenshot-1.png",
