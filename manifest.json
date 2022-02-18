@@ -29,6 +29,16 @@
       "sizes": "32x32"
     },
     {
+      "src": "image/justguus2x.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "image/justguus3x.png",
+      "type": "image/png",
+      "sizes": "515x512"
+    },
+    {
       "src": "image/favicon-16x16.png",
       "type": "image/png",
       "sizes": "16x16"
