@@ -39,6 +39,11 @@
       "sizes": "515x512"
     },
     {
+      "src": "image/justguus-transparent-512.png",
+      "type": "image/png",
+      "sizes": "515x512"
+    },
+    {
       "src": "image/justguus3x.png",
       "type": "image/png",
       "sizes": "1024x1024"
@@ -54,7 +59,8 @@
       "sizes": "180x180"
     },
     {
-      "src": "image/safari-pinned-tab.svg"
+      "src": "image/safari-pinned-tab.svg",
+      "type": "image/svg"
     }
   ],
   "shortcuts": []
